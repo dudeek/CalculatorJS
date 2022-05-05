@@ -1,0 +1,12 @@
+@import 'colors';
+
+.headerWrapper {
+  background-color: $theme1-background;
+  display: flex;
+  justify-content: space-between;
+
+  &__title {
+    color: $theme1-text-white;
+    font-size: 3rem;
+  }
+}

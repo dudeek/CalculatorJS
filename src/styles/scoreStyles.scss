@@ -1,0 +1,14 @@
+@import '../styles/_colors.scss';
+
+.score {
+  border: none;
+  background-color: $theme1-screen-background;
+  width: 100%;
+  color: $theme1-text-white;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 2rem;
+  font-weight: bold;
+}
